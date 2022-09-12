@@ -1,0 +1,8 @@
+./television/node_modules
+./remote/channels_service/node_modules
+./remote/remote_service/node_modules
+./remote/client_service/node_modules
+.\remote\client\src\utils\firebase.js
+.\remote\channels_service\utils\firebase.js
+.\remote\remote_service\utils\firebase.js
+.\television\src\utils\firebase.js

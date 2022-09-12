@@ -1,0 +1,24 @@
+{
+  "name": "television",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "build:css": "npx tailwindcss -i ./src/styles/input.css -o ./src/styles/main.css --watch"
+  },
+  "dependencies": {
+    "firebase": "^9.9.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.1",
+    "tailwindcss": "^3.1.8",
+    "vite": "^3.0.7"
+  }
+}
